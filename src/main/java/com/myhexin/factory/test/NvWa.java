@@ -8,6 +8,7 @@ import com.myhexin.factory.impl.WhiteHuman;
 import com.myhexin.factory.impl.YellowHuman;
 
 /**
+ * 工厂模式
  * 女蜗开始造人
  */
 public class NvWa {
