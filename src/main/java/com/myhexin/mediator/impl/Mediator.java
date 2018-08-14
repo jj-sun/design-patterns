@@ -4,6 +4,7 @@ import com.myhexin.mediator.AbstractMediator;
 
 /**
  * 中介者模式，松耦合处理，将紧耦合方法，通过中介者来进行整合。
+ * 类与类之间的交互，通过中介来进行处理。
  */
 public class Mediator extends AbstractMediator {
     /**
