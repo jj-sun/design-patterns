@@ -6,31 +6,38 @@ public class UserInfo implements IUserInfo {
 
     @Override
     public String getUserName() {
-        return null;
+        String userName = "战三";
+        System.out.println(userName);
+        return userName;
     }
 
     @Override
     public String getHomeAddress() {
-        return null;
+        System.out.println("家庭住址");
+        return "家庭地址";
     }
 
     @Override
     public String getMobileNumber() {
-        return null;
+        System.out.println("手机号码");
+        return "手机号码";
     }
 
     @Override
     public String getOfficeTelNumber() {
-        return null;
+        System.out.println("办公室电话");
+        return "办公室电话";
     }
 
     @Override
     public String getJobPosition() {
-        return null;
+        System.out.println("职位");
+        return "职位";
     }
 
     @Override
     public String getHomeTelNumber() {
-        return null;
+        System.out.println("家庭电话");
+        return "家庭电话";
     }
 }
