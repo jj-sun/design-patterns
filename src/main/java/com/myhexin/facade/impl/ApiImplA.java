@@ -1,4 +1,6 @@
-package com.myhexin.facade;
+package com.myhexin.facade.impl;
+
+import com.myhexin.facade.Api;
 
 public class ApiImplA implements Api {
 
