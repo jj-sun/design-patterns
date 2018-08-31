@@ -10,7 +10,6 @@ import java.util.Map;
 
 public class InterpreterTest {
     public static void main(String[] args) throws Exception {
-
         String expStr = getExpStr();
         Map<String,Integer> var = getValue(expStr);
         Calculator calculator = new Calculator(expStr);
